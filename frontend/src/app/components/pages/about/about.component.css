@@ -3,4 +3,7 @@
   background-color: var(--custom-background);
   margin: auto 10%;
   border-radius: 2rem;
+}
+.content img {
+  width: 90%;
 }/*# sourceMappingURL=about.component.css.map */
