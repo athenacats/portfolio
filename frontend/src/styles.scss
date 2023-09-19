@@ -3,9 +3,14 @@
 /* Importing Bootstrap SCSS file. */
 @import "bootstrap/scss/bootstrap";
 
+@import url("https://fonts.googleapis.com/css2?family=Rancho&display=swap");
+
 :root,
 [data-bs-theme="light"] {
+  --bs-body-font-family: Rancho, cursive, Inter, system-ui, Avenir, Helvetica,
+    Arial, sans-serif;
   --bs-body-bg: #3b0a2c;
+  --bs-body-font-size: 1.2rem;
   --bs-link-color: #fff;
   --custom-background: #fbd1ff;
 }
