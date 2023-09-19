@@ -12,7 +12,4 @@ li .active {
 li a:hover:not(.active) {
   font-size: 1.6rem;
   text-shadow: 3px 3px 2px var(--bs-body-bg);
-}
-li a:hover:not(.active) .active {
-  text-shadow: none;
 }/*# sourceMappingURL=header.component.css.map */
