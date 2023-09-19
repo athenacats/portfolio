@@ -3,4 +3,12 @@ img {
 }
 li {
   list-style: none;
+  .active {
+    font-size: 1.6rem;
+    text-shadow: 3px 3px 2px var(--bs-body-bg);
+  }
+  a:hover:not(.active) {
+    font-size: 1.6rem;
+    text-shadow: 3px 3px 2px var(--bs-body-bg);
+  }
 }
