@@ -1,4 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
 
 /* Importing Bootstrap SCSS file. */
-@import 'bootstrap/scss/bootstrap';
+@import "bootstrap/scss/bootstrap";
+
+:root,
+[data-bs-theme="light"] {
+  --bs-body-bg: #3b0a2c;
+}
+
+html {
+  min-height: 100vh;
+}
