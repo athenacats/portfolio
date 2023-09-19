@@ -1,1 +1,7 @@
-/*# sourceMappingURL=header.component.css.map */
+img {
+  max-height: 4rem;
+}
+
+li {
+  list-style: none;
+}/*# sourceMappingURL=header.component.css.map */
