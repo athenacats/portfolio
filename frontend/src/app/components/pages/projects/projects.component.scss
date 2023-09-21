@@ -1,0 +1,21 @@
+.content {
+  height: 80vh;
+  background-color: var(--custom-background);
+  margin: auto 10%;
+  border-radius: 2rem;
+  img.laptop1 {
+    width: 80%;
+    float: right;
+    position: relative;
+  }
+  img.laptop2 {
+    width: 80%;
+    float: right;
+    position: relative;
+  }
+  img.phone1 {
+    width: 30%;
+    position: relative;
+    top: 40;
+  }
+}
