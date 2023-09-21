@@ -3,4 +3,8 @@
   background-color: var(--custom-background);
   margin: auto 10%;
   border-radius: 2rem;
+}
+.content img {
+  height: 50px;
+  width: 50px;
 }/*# sourceMappingURL=skills.component.css.map */
