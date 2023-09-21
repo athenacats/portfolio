@@ -1,10 +1,13 @@
 .content {
-  height: 80vh;
-  background-color: var(--custom-background);
   margin: auto 10%;
   border-radius: 2rem;
 }
 .content img {
   height: 50px;
   width: 50px;
+}
+.content .section {
+  height: 80vh;
+  background-color: var(--custom-background);
+  border-radius: 1rem;
 }/*# sourceMappingURL=skills.component.css.map */

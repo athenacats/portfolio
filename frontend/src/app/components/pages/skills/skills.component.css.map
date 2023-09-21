@@ -1,1 +1,1 @@
-{"version":3,"sources":["skills.component.scss","skills.component.css"],"names":[],"mappings":"AAAA;EACE,YAAA;EACA,0CAAA;EACA,gBAAA;EACA,mBAAA;ACCF;ADAE;EACE,YAAA;EACA,WAAA;ACEJ","file":"skills.component.css"}
+{"version":3,"sources":["skills.component.scss","skills.component.css"],"names":[],"mappings":"AAAA;EACE,gBAAA;EACA,mBAAA;ACCF;ADAE;EACE,YAAA;EACA,WAAA;ACEJ;ADAE;EACE,YAAA;EACA,0CAAA;EACA,mBAAA;ACEJ","file":"skills.component.css"}
