@@ -7,13 +7,16 @@
 .content .contact-links p {
   display: none;
 }
-.content img:hover {
-  cursor: url("./../../../../assets/icons8-cursor-48.png"), auto;
+.content img.tree {
+  width: 25%;
 }
 .content .image-container {
   display: flex;
   position: relative;
   justify-content: center;
+}
+.content .image-container img:hover {
+  cursor: url("./../../../../assets/icons8-cursor-48.png"), auto;
 }
 .content .image-container img[title]::after {
   content: "";
@@ -41,4 +44,18 @@
 .content .contact-links:hover p {
   display: block;
   text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .image-container img.tree {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .image-container img.tree {
+    width: 80%;
+  }
+  .contact-links img {
+    width: 30px;
+  }
 }/*# sourceMappingURL=contact.component.css.map */

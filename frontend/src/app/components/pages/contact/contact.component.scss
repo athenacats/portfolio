@@ -6,14 +6,18 @@
   .contact-links p {
     display: none;
   }
-  img:hover {
-    cursor: url("./../../../../assets/icons8-cursor-48.png"), auto;
+  img.tree {
+    width: 25%;
   }
+
   .image-container {
     display: flex;
     position: relative;
     justify-content: center;
 
+    img:hover {
+      cursor: url("./../../../../assets/icons8-cursor-48.png"), auto;
+    }
     img[title]::after {
       content: "";
       display: none;
@@ -41,6 +45,27 @@
     p {
       display: block;
       text-align: center;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .image-container {
+    img.tree {
+      width: 50%;
+    }
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .image-container {
+    img.tree {
+      width: 80%;
+    }
+  }
+  .contact-links {
+    img {
+      width: 30px;
     }
   }
 }
