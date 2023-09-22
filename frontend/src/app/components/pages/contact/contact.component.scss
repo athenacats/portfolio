@@ -3,4 +3,30 @@
   border-radius: 2rem;
   height: 80vh;
   background-color: var(--custom-background);
+  .image-container {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    img:hover {
+      cursor: pointer;
+    }
+    img[title]::after {
+      content: "";
+      display: none;
+      position: absolute;
+      background-color: rgba(0, 0, 0, 0.7);
+      color: #fff;
+      padding: 5px;
+      border-radius: 5px;
+      white-space: nowrap;
+      z-index: 1;
+      bottom: 100%; /* Position above the image */
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    img[title]:hover::after {
+      display: block;
+    }
+  }
 }
