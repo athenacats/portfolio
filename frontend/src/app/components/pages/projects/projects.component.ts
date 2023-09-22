@@ -29,4 +29,8 @@ export class ProjectsComponent {
   weatherCode(): void {
     window.open('https://github.com/athenacats/weatherapp');
   }
+
+  nalelaLive(): void {
+    window.open('https://nalelahairandbeauty.com/');
+  }
 }
