@@ -1,1 +1,28 @@
-<p>contact works!</p>
+<div
+  class="content d-flex flex-column justify-content-between align-items-center"
+>
+  <img
+    class="tree"
+    style="width: 30%"
+    src="./../../../../assets/contact-art.png"
+    title="Have an opportunity where we can grow together? Click on my contact links below!"
+  />
+  <div class="d-flex justify-content-around w-100">
+    <img
+      style="cursor: pointer"
+      (click)="mailTo()"
+      src="./../../../../assets/icons8-mail-50.png"
+    />
+    <img
+      style="cursor: pointer"
+      (click)="linkedIn()"
+      src="./../../../../assets/icons8-linkedin-50.png"
+    />
+    <img
+      style="cursor: pointer"
+      (click)="github()"
+      src="./../../../../assets/icons8-github-50.png"
+    />
+  </div>
+  <p class="my-0">All illustrations on the website are original pieces</p>
+</div>
