@@ -52,7 +52,12 @@
 @media only screen and (max-width: 768px) {
   .image-container {
     img.tree {
-      width: 50%;
+      width: 30%;
+    }
+  }
+  .contact-links {
+    img {
+      width: 40px;
     }
   }
 }
@@ -60,7 +65,7 @@
 @media only screen and (max-width: 480px) {
   .image-container {
     img.tree {
-      width: 80%;
+      width: 50%;
     }
   }
   .contact-links {
