@@ -63,14 +63,17 @@
 }
 
 @media only screen and (max-width: 480px) {
-  .image-container {
-    img.tree {
-      width: 50%;
+  .content {
+    height: 500px;
+    .image-container {
+      img.tree {
+        width: 50%;
+      }
     }
-  }
-  .contact-links {
-    img {
-      width: 30px;
+    .contact-links {
+      img {
+        width: 30px;
+      }
     }
   }
 }
