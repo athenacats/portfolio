@@ -3,11 +3,13 @@
   background-color: var(--custom-background);
   margin: auto 10%;
   border-radius: 2rem;
+  align-self: center;
 }
 .content .profile-image {
   display: flex;
   position: relative;
   justify-content: center;
+  width: 50%;
 }
 .content .profile-image img {
   width: 90%;
@@ -15,7 +17,7 @@
 .content .profile-image img:hover {
   cursor: url("./../../../../assets/icons8-cursor-48.png"), auto;
 }
-.content .profile-image mg[title]::after {
+.content .profile-image img[title]::after {
   content: "";
   display: none;
   position: absolute;
@@ -31,4 +33,22 @@
 }
 .content .profile-image img[title]:hover::after {
   display: block;
+}
+.content .text {
+  width: 50%;
+}
+
+@media only screen and (max-width: 480px) {
+  .content {
+    height: 600px;
+  }
+  .content .overall {
+    flex-direction: column;
+  }
+  .content .overall .profile-image {
+    width: 90%;
+  }
+  .content .overall .text {
+    width: 90%;
+  }
 }/*# sourceMappingURL=about.component.css.map */
