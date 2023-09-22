@@ -53,7 +53,7 @@
     flex-direction: column;
   }
   .content .overall .images {
-    padding: 1rem;
+    padding: 0.5rem;
     height: 50%;
     width: 100%;
   }

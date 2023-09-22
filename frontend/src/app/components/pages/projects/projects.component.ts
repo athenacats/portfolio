@@ -13,4 +13,12 @@ export class ProjectsComponent {
   somaCode(): void {
     window.open('https://github.com/athenacats/soma');
   }
+
+  freakyLive(): void {
+    window.open('https://thefreakylink.onrender.com/');
+  }
+
+  freakyCode(): void {
+    window.open('https://github.com/athenacats/freakylinkweb');
+  }
 }
