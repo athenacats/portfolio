@@ -4,18 +4,32 @@
   margin: auto 10%;
   border-radius: 2rem;
   img.laptop1 {
-    width: 80%;
-    float: right;
+    width: 85%;
+
     position: relative;
   }
   img.laptop2 {
-    width: 80%;
+    width: 85%;
     float: right;
+    margin-top: -3rem;
     position: relative;
+    margin-right: 0.5rem;
   }
   img.phone1 {
-    width: 30%;
+    width: 33%;
     position: relative;
-    top: 40;
+
+    float: right;
+    margin-top: -4rem;
+
+    z-index: 3;
+  }
+  img.phone2 {
+    width: 33%;
+
+    position: relative;
+
+    margin-top: -6.5rem;
+    margin-right: 3rem;
   }
 }
