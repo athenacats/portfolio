@@ -4,28 +4,41 @@
   height: 80vh;
   background-color: var(--custom-background);
 }
+.content .contact-links p {
+  display: none;
+}
+.content img:hover {
+  cursor: url("./../../../../assets/icons8-cursor-48.png"), auto;
+}
 .content .image-container {
   display: flex;
   position: relative;
   justify-content: center;
 }
-.content .image-container img:hover {
-  cursor: pointer;
-}
 .content .image-container img[title]::after {
   content: "";
   display: none;
   position: absolute;
-  background-color: rgba(0, 0, 0, 0.7);
-  color: #fff;
+  background-color: var(--custom-background);
+  color: var(--bs-bg-color);
   padding: 5px;
   border-radius: 5px;
   white-space: nowrap;
   z-index: 1;
-  bottom: 100%; /* Position above the image */
+  bottom: 100%;
   left: 50%;
   transform: translateX(-50%);
 }
 .content .image-container img[title]:hover::after {
   display: block;
+}
+.content .contact-links:hover {
+  cursor: url("./../../../../assets/icons8-cursor-48.png"), auto;
+}
+.content .contact-links:hover img {
+  width: 50px;
+}
+.content .contact-links:hover p {
+  display: block;
+  text-align: center;
 }/*# sourceMappingURL=contact.component.css.map */

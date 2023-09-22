@@ -10,21 +10,21 @@
     />
   </div>
   <div class="d-flex justify-content-around w-100">
-    <img
-      style="cursor: pointer"
-      (click)="mailTo()"
-      src="./../../../../assets/icons8-mail-50.png"
-    />
-    <img
-      style="cursor: pointer"
-      (click)="linkedIn()"
-      src="./../../../../assets/icons8-linkedin-50.png"
-    />
-    <img
-      style="cursor: pointer"
-      (click)="github()"
-      src="./../../../../assets/icons8-github-50.png"
-    />
+    <div class="contact-links d-flex flex-column align-items-center">
+      <img (click)="mailTo()" src="./../../../../assets/icons8-mail-50.png" />
+      <p>Send me an email</p>
+    </div>
+    <div class="contact-links d-flex flex-column align-items-center">
+      <img
+        (click)="linkedIn()"
+        src="./../../../../assets/icons8-linkedin-50.png"
+      />
+      <p>Find me on LinkedIn</p>
+    </div>
+    <div class="contact-links d-flex flex-column align-items-center">
+      <img (click)="github()" src="./../../../../assets/icons8-github-50.png" />
+      <p s>Check out my GitHub</p>
+    </div>
   </div>
   <p class="my-0">All illustrations on the website are original pieces</p>
 </div>
