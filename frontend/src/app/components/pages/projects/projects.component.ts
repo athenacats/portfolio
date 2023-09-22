@@ -21,4 +21,12 @@ export class ProjectsComponent {
   freakyCode(): void {
     window.open('https://github.com/athenacats/freakylinkweb');
   }
+
+  weatherLive(): void {
+    window.open('https://weatherzone-4tow.onrender.com/');
+  }
+
+  weatherCode(): void {
+    window.open('https://github.com/athenacats/weatherapp');
+  }
 }
