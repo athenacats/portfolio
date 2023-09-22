@@ -3,7 +3,33 @@
   background-color: var(--custom-background);
   margin: auto 10%;
   border-radius: 2rem;
-  img {
-    width: 90%;
+  .profile-image {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    img {
+      width: 90%;
+    }
+    img:hover {
+      cursor: url("./../../../../assets/icons8-cursor-48.png"), auto;
+    }
+    mg[title]::after {
+      content: "";
+      display: none;
+      position: absolute;
+      background-color: var(--custom-background);
+      color: var(--bs-bg-color);
+      padding: 5px;
+      border-radius: 5px;
+      white-space: nowrap;
+      z-index: 1;
+      bottom: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    img[title]:hover::after {
+      display: block;
+    }
   }
 }
