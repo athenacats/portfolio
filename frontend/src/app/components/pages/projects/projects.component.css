@@ -4,27 +4,65 @@
   margin: auto 10%;
   border-radius: 2rem;
 }
-.content img.laptop1 {
-  width: 85%;
+.content .overall {
+  height: 100%;
+}
+.content .overall .images {
+  height: 100%;
+  width: 50%;
+}
+.content .overall .images img.laptop1,
+.content .overall .images img.laptop2 {
+  max-height: 45%;
+  width: 90%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  max-width: auto;
   position: relative;
 }
-.content img.laptop2 {
-  width: 85%;
-  float: right;
-  margin-top: -3rem;
-  position: relative;
-  margin-right: 0.5rem;
+.content .overall .images img.phone1 {
+  display: none;
 }
-.content img.phone1 {
-  width: 33%;
-  position: relative;
-  float: right;
-  margin-top: -4rem;
-  z-index: 3;
+.content .overall .text {
+  width: 50%;
 }
-.content img.phone2 {
-  width: 33%;
-  position: relative;
-  margin-top: -6.5rem;
-  margin-right: 3rem;
+
+@media only screen and (max-width: 768px) {
+  .content .overall .images {
+    align-items: center;
+  }
+  .content .overall .images img.laptop1 {
+    display: none;
+  }
+  .content .overall .images img.laptop2 {
+    display: none;
+  }
+  .content .overall .images img.phone1 {
+    display: flex;
+    border-radius: 1rem;
+    width: 85%;
+    max-height: 95%;
+    -o-object-fit: contain;
+       object-fit: contain;
+    margin-top: 0;
+    z-index: 3;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .content .overall {
+    flex-direction: column;
+  }
+  .content .overall .images {
+    padding: 1rem;
+    height: 50%;
+    width: 100%;
+  }
+  .content .overall .images img.phone1 {
+    padding-top: 0.5rem;
+  }
+  .content .overall .text {
+    padding: 1rem;
+    height: 50%;
+    width: 100%;
+  }
 }/*# sourceMappingURL=projects.component.css.map */

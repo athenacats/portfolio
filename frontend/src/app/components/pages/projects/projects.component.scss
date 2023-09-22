@@ -3,33 +3,76 @@
   background-color: var(--custom-background);
   margin: auto 10%;
   border-radius: 2rem;
-  img.laptop1 {
-    width: 85%;
+  .overall {
+    height: 100%;
+    .images {
+      height: 100%;
+      width: 50%;
 
-    position: relative;
+      img.laptop1,
+      img.laptop2 {
+        max-height: 45%;
+        width: 90%;
+        object-fit: contain;
+        max-width: auto;
+        position: relative;
+      }
+
+      img.phone1 {
+        display: none;
+      }
+    }
+    .text {
+      width: 50%;
+    }
   }
-  img.laptop2 {
-    width: 85%;
-    float: right;
-    margin-top: -3rem;
-    position: relative;
-    margin-right: 0.5rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .content {
+    .overall {
+      .images {
+        align-items: center;
+
+        img.laptop1 {
+          display: none;
+        }
+        img.laptop2 {
+          display: none;
+        }
+        img.phone1 {
+          display: flex;
+          border-radius: 1rem;
+          width: 85%;
+          max-height: 95%;
+          object-fit: contain;
+
+          margin-top: 0;
+
+          z-index: 3;
+        }
+      }
+    }
   }
-  img.phone1 {
-    width: 33%;
-    position: relative;
+}
 
-    float: right;
-    margin-top: -4rem;
-
-    z-index: 3;
-  }
-  img.phone2 {
-    width: 33%;
-
-    position: relative;
-
-    margin-top: -6.5rem;
-    margin-right: 3rem;
+@media only screen and (max-width: 480px) {
+  .content {
+    .overall {
+      flex-direction: column;
+      .images {
+        padding: 1rem;
+        height: 50%;
+        width: 100%;
+        img.phone1 {
+          padding-top: 0.5rem;
+        }
+      }
+      .text {
+        padding: 1rem;
+        height: 50%;
+        width: 100%;
+      }
+    }
   }
 }
