@@ -40,7 +40,7 @@
 
 @media only screen and (max-width: 480px) {
   .content {
-    height: 600px;
+    height: 650px;
   }
   .content .overall {
     flex-direction: column;
