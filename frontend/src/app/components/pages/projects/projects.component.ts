@@ -33,4 +33,8 @@ export class ProjectsComponent {
   nalelaLive(): void {
     window.open('https://nalelahairandbeauty.com/');
   }
+
+  amaLive(): void {
+    window.open('https://www.amapm.ca/');
+  }
 }
