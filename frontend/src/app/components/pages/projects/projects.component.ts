@@ -37,4 +37,12 @@ export class ProjectsComponent {
   amaLive(): void {
     window.open('https://www.amapm.ca/');
   }
+
+  herculeanLive(): void {
+    window.open('https://herculean-strength.vercel.app/');
+  }
+
+  herculeanCode(): void {
+    window.open('https://github.com/athenacats/herculean-strength');
+  }
 }
