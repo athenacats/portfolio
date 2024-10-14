@@ -34,6 +34,13 @@ export class ProjectsComponent {
     window.open('https://nalelahairandbeauty.com/');
   }
 
+  freakywordLive(): void {
+    window.open('https://thefreakylink.com/');
+  }
+  tintifyLive(): void {
+    window.open('https://tintify.com.au/');
+  }
+
   amaLive(): void {
     window.open('https://www.amapm.ca/');
   }
