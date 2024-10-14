@@ -13,15 +13,19 @@
 }
 
 @media only screen and (max-width: 786px) {
-  .overall {
-    flex-direction: column;
-    align-items: center;
-    .section {
-      width: 90%;
-      height: 500px;
-      img {
-        height: 40px;
-        width: 40px;
+  .content {
+    padding-bottom: 2rem;
+    .overall {
+      flex-direction: column;
+      align-items: center;
+      .section {
+        width: 90%;
+        height: 100%;
+        img,
+        svg {
+          height: 40px;
+          width: 40px;
+        }
       }
     }
   }
