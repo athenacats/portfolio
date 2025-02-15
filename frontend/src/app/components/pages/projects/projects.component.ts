@@ -56,4 +56,8 @@ export class ProjectsComponent {
   ESILive(): void {
     window.open('https://www.eesipeo.com/');
   }
+
+  FBBLive(): void {
+    window.open('https://bedandbreakfastfredericksburgtexas.com/');
+  }
 }
