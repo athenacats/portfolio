@@ -52,4 +52,8 @@ export class ProjectsComponent {
   herculeanCode(): void {
     window.open('https://github.com/athenacats/herculean-strength');
   }
+
+  ESILive(): void {
+    window.open('https://www.eesipeo.com/');
+  }
 }
